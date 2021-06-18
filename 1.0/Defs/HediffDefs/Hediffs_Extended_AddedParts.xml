@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Added body parts -->
+  <HediffDef Name="ExtendedBodyPartBase" Abstract="True">
+    <hediffClass>Hediff_AddedPart</hediffClass>
+    <defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+    <isBad>false</isBad>
+    <addedPartProps>
+      <solid>true</solid>
+      <betterThanNatural>false</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="ExtendedBodyPartBase">
+    <defName>ArtificialNose</defName>
+    <label>artificial nose</label>
+    <labelNoun>an artificial nose</labelNoun>
+    <addedPartProps>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="ExtendedBodyPartBase">
+    <defName>ArtificialEar</defName>
+    <label>artificial ear</label>
+    <labelNoun>an artificial ear</labelNoun>
+    <addedPartProps>
+      <partEfficiency>0.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="ExtendedBodyPartBase">
+    <defName>ArtificialEye</defName>
+    <label>artificial eye</label>
+    <labelNoun>an artificial eye</labelNoun>
+    <addedPartProps>
+      <partEfficiency>0.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="ExtendedBodyPartBase">
+    <defName>ArtificialFinger</defName>
+    <label>artificial finger</label>
+    <labelNoun>an artificial finger</labelNoun>
+    <addedPartProps>
+      <partEfficiency>0.6</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="ExtendedBodyPartBase">
+    <defName>ArtificialToe</defName>
+    <label>artificial toe</label>
+    <labelNoun>an artificial toe</labelNoun>
+    <addedPartProps>
+      <partEfficiency>0.9</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="ExtendedBodyPartBase">
+    <defName>ArtificialClavicle</defName>
+    <label>artificial clavicle</label>
+    <labelNoun>an artificial clavicle</labelNoun>
+    <addedPartProps>
+      <partEfficiency>0.9</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="ExtendedBodyPartBase">
+    <defName>ArtificialSternum</defName>
+    <label>artificial sternum</label>
+    <labelNoun>an artificial sternum</labelNoun>
+    <addedPartProps>
+      <partEfficiency>0.9</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="ExtendedBodyPartBase">
+    <defName>ArtificialRib</defName>
+    <label>artificial rib</label>
+    <labelNoun>an artificial rib</labelNoun>
+    <addedPartProps>
+      <partEfficiency>0.9</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="ExtendedBodyPartBase">
+    <defName>ArtificialHumerus</defName>
+    <label>artificial humerus</label>
+    <labelNoun>an artificial humerus</labelNoun>
+    <addedPartProps>
+      <partEfficiency>0.9</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="ExtendedBodyPartBase">
+    <defName>ArtificialRadius</defName>
+    <label>artificial radius</label>
+    <labelNoun>an artificial radius</labelNoun>
+    <addedPartProps>
+      <partEfficiency>0.9</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="ExtendedBodyPartBase">
+    <defName>ArtificialPelvis</defName>
+    <label>artificial pelvis</label>
+    <labelNoun>an artificial pelvis</labelNoun>
+    <addedPartProps>
+      <partEfficiency>0.9</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="ExtendedBodyPartBase">
+    <defName>ArtificialFemur</defName>
+    <label>artificial femur</label>
+    <labelNoun>an artificial femur</labelNoun>
+    <addedPartProps>
+      <partEfficiency>0.9</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="ExtendedBodyPartBase">
+    <defName>ArtificialTibia</defName>
+    <label>artificial tibia</label>
+    <labelNoun>an artificial tibia</labelNoun>
+    <addedPartProps>
+      <partEfficiency>0.9</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+</Defs>

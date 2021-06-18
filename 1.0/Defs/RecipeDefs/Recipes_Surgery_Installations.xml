@@ -1,0 +1,661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef Name="ExtendedSurgery" ParentName="SurgeryFlesh" Abstract="True">
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!--==================== Install artificial parts =======================-->
+  <RecipeDef ParentName="ExtendedSurgery">
+    <defName>InstallArtificialNose</defName>
+    <label>install artificial nose</label>
+    <description>Installs artificial nose.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <successfullyRemovedHediffMessage>{0} has successfully replaced {1}'s nose.</successfullyRemovedHediffMessage>
+    <jobString>Installing artificial nose.</jobString>
+    <workAmount>2000</workAmount>
+    <surgerySuccessChanceFactor>1.30</surgerySuccessChanceFactor>
+    <skillRequirements>
+      <Artistic>5</Artistic>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Nose</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArtificialNose</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="ExtendedSurgery">
+    <defName>InstallArtificialEar</defName>
+    <label>install artificial ear</label>
+    <description>Installs artificial ear.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <successfullyRemovedHediffMessage>{0} has successfully replaced {1}'s ear.</successfullyRemovedHediffMessage>
+    <jobString>Installing artificial ear.</jobString>
+    <workAmount>2000</workAmount>
+    <surgerySuccessChanceFactor>1.30</surgerySuccessChanceFactor>
+    <skillRequirements>
+      <Artistic>5</Artistic>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>LeftEar</li>
+      <li>RightEar</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArtificialEar</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="ExtendedSurgery">
+    <defName>InstallArtificialEye</defName>
+    <label>install artificial eye</label>
+    <description>Installs artificial eye.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <successfullyRemovedHediffMessage>{0} has successfully replaced {1}'s eye.</successfullyRemovedHediffMessage>
+    <jobString>Installing artificial eye.</jobString>
+    <workAmount>2000</workAmount>
+    <surgerySuccessChanceFactor>1.30</surgerySuccessChanceFactor>
+    <skillRequirements>
+      <Artistic>5</Artistic>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>LeftEye</li>
+      <li>RightEye</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArtificialEye</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="ExtendedSurgery">
+    <defName>InstallArtificialFinger</defName>
+    <label>install artificial finger</label>
+    <description>Installs artificial finger.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <successfullyRemovedHediffMessage>{0} has successfully replaced {1}'s finger.</successfullyRemovedHediffMessage>
+    <jobString>Installing artificial finger.</jobString>
+    <workAmount>2000</workAmount>
+    <surgerySuccessChanceFactor>1.30</surgerySuccessChanceFactor>
+    <skillRequirements>
+      <Artistic>5</Artistic>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Finger</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArtificialFinger</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="ExtendedSurgery">
+    <defName>InstallArtificialToe</defName>
+    <label>install artificial toe</label>
+    <description>Installs artificial toe.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <successfullyRemovedHediffMessage>{0} has successfully replaced {1}'s toe.</successfullyRemovedHediffMessage>
+    <jobString>Installing artificial toe.</jobString>
+    <workAmount>2000</workAmount>
+    <surgerySuccessChanceFactor>1.30</surgerySuccessChanceFactor>
+    <skillRequirements>
+      <Artistic>5</Artistic>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Toe</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArtificialToe</addsHediff>
+  </RecipeDef>
+  <!--==================== Install replacement parts =======================-->
+  <RecipeDef ParentName="ExtendedSurgery">
+    <defName>InstallEye</defName>
+    <label>install eye</label>
+    <description>Installs eye.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing eye.</jobString>
+    <workAmount>2200</workAmount>
+    <surgerySuccessChanceFactor>1.30</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Eye</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Eye</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>LeftEye</li>
+      <li>RightEye</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="ExtendedSurgery">
+    <defName>InstallRib</defName>
+    <label>install rib</label>
+    <description>Installs rib.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing rib.</jobString>
+    <workAmount>1000</workAmount>
+    <surgerySuccessChanceFactor>1.30</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.02</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>3</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Rib</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArtificialRib</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="ExtendedSurgery">
+    <defName>InstallClavicle</defName>
+    <label>install clavicle</label>
+    <description>Installs clavicle.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <successfullyRemovedHediffMessage>{0} has successfully replaced {1}'s clavicle.</successfullyRemovedHediffMessage>
+    <jobString>Installing clavicle.</jobString>
+    <workAmount>1000</workAmount>
+    <surgerySuccessChanceFactor>1.30</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>LeftClavicle</li>
+      <li>RightClavicle</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArtificialClavicle</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="ExtendedSurgery">
+    <defName>InstallSternum</defName>
+    <label>install sternum</label>
+    <description>Installs sternum.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <successfullyRemovedHediffMessage>{0} has successfully replaced {1}'s sternum.</successfullyRemovedHediffMessage>
+    <jobString>Installing sternum.</jobString>
+    <workAmount>1000</workAmount>
+    <surgerySuccessChanceFactor>1.30</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Sternum</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArtificialSternum</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="ExtendedSurgery">
+    <defName>InstallHumerus</defName>
+    <label>install humerus</label>
+    <description>Installs humerus.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <successfullyRemovedHediffMessage>{0} has successfully replaced {1}'s humerus.</successfullyRemovedHediffMessage>
+    <jobString>Installing humerus.</jobString>
+    <workAmount>1000</workAmount>
+    <surgerySuccessChanceFactor>1.30</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>LeftHumerus</li>
+      <li>RightHumerus</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArtificialHumerus</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="ExtendedSurgery">
+    <defName>InstallRadius</defName>
+    <label>install radius</label>
+    <description>Installs radius.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <successfullyRemovedHediffMessage>{0} has successfully replaced {1}'s radius.</successfullyRemovedHediffMessage>
+    <jobString>Installing radius.</jobString>
+    <workAmount>1000</workAmount>
+    <surgerySuccessChanceFactor>1.30</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>LeftRadius</li>
+      <li>RightRadius</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArtificialRadius</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="ExtendedSurgery">
+    <defName>InstallArtificialPelvis</defName>
+    <label>install artificial pelvis</label>
+    <description>Installs artificial pelvis.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <successfullyRemovedHediffMessage>{0} has successfully replaced {1}'s pelvis.</successfullyRemovedHediffMessage>
+    <jobString>Installing artificial pelvis.</jobString>
+    <workAmount>2500</workAmount>
+    <surgerySuccessChanceFactor>1.30</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.10</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Pelvis</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArtificialPelvis</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="ExtendedSurgery">
+    <defName>InstallFemur</defName>
+    <label>install femur</label>
+    <description>Installs femur.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <successfullyRemovedHediffMessage>{0} has successfully replaced {1}'s femur.</successfullyRemovedHediffMessage>
+    <jobString>Installing femur.</jobString>
+    <workAmount>1000</workAmount>
+    <surgerySuccessChanceFactor>1.30</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>LeftFemur</li>
+      <li>RightFemur</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArtificialFemur</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="ExtendedSurgery">
+    <defName>InstallTibia</defName>
+    <label>install tibia</label>
+    <description>Installs tibia.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <successfullyRemovedHediffMessage>{0} has successfully replaced {1}'s tibia.</successfullyRemovedHediffMessage>
+    <jobString>Installing tibia.</jobString>
+    <workAmount>1000</workAmount>
+    <surgerySuccessChanceFactor>1.30</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>LeftTibia</li>
+      <li>RightTibia</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArtificialFemur</addsHediff>
+  </RecipeDef>
+  <!--==================== Simple Healing =======================-->
+  <RecipeDef ParentName="ExtendedSurgery">
+    <defName>CureScratch</defName>
+    <label>heal scratch</label>
+    <description>Heal scratch.</description>
+    <workerClass>Recipe_RemoveHediff</workerClass>
+    <successfullyRemovedHediffMessage>{0} has successfully healed {1}'s scratch.</successfullyRemovedHediffMessage>
+    <jobString>Healing scratch.</jobString>
+    <surgerySuccessChanceFactor>1.1</surgerySuccessChanceFactor>
+    <workAmount>1000</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+    </fixedIngredientFilter>
+    <removesHediff>Scratch</removesHediff>
+  </RecipeDef>
+</Defs>

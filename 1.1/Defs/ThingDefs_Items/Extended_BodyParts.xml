@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BodyPartNaturalBase">
+    <defName>Eye</defName>
+    <label>eye</label>
+    <description>Allows for vision. Ready to find a new owner.</description>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BodyPartDef>
+    <defName>LeftEye</defName>
+    <label>left eye</label>
+    <hitPoints>10</hitPoints>
+    <permanentInjuryChanceFactor>15</permanentInjuryChanceFactor>
+    <delicate>true</delicate>
+    <skinCovered>false</skinCovered>
+    <socketed>true</socketed>
+    <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>SightSource</li>
+    </tags>
+    <hitChanceFactors>
+      <li>
+        <key>Blunt</key>
+        <value>0</value>
+      </li>
+    </hitChanceFactors>
+    <spawnThingOnRemoved>Eye</spawnThingOnRemoved>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>RightEye</defName>
+    <label>right eye</label>
+    <hitPoints>10</hitPoints>
+    <permanentInjuryChanceFactor>15</permanentInjuryChanceFactor>
+    <delicate>true</delicate>
+    <skinCovered>false</skinCovered>
+    <socketed>true</socketed>
+    <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>SightSource</li>
+    </tags>
+    <hitChanceFactors>
+      <li>
+        <key>Blunt</key>
+        <value>0</value>
+      </li>
+    </hitChanceFactors>
+    <spawnThingOnRemoved>Eye</spawnThingOnRemoved>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>LeftEar</defName>
+    <label>left ear</label>
+    <hitPoints>12</hitPoints>
+    <frostbiteVulnerability>5</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>HearingSource</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>RightEar</defName>
+    <label>right ear</label>
+    <hitPoints>12</hitPoints>
+    <frostbiteVulnerability>5</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>HearingSource</li>
+    </tags>
+  </BodyPartDef>
+</Defs>
