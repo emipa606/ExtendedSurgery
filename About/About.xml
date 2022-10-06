@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Extended Surgery (Continued)</name>
   <packageId>Mlie.ExtendedSurgery</packageId>
@@ -9,25 +9,30 @@
     <li>1.1</li>
     <li>1.2</li>
     <li>1.3</li>
+    <li>1.4</li>
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Kilroy232s mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1312089354
 
 - Replaced the vanilla overwrites with a patch instead
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
     [tr]
         [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
         [td][url=https://github.com/emipa606/ExtendedSurgery][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
     [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 This mod adds new basic surgeries intended for mid to late game play that will help keep colonists happier and also stay as close to the vanilla game as possible.
 
 With the ability to add replace whole limbs with bionics I think it is only reasonable that a player can expect to have the ability to preform less complex but still important surgeries. This is the premise for this mod.
@@ -41,7 +46,7 @@ The mod doesn't require any research but you need to have a colonist with a high
 --You DO NOT need to start a new game for this mod--
 --Note that bones are replaced with Plasteel so you must have some to preform the operation--
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -50,5 +55,6 @@ The mod doesn't require any research but you need to have a colonist with a high
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
+
 </description>
 </ModMetaData>
