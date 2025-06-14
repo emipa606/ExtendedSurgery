@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: artificial clavicle -->
+  <ArtificialClavicle.label>artificial clavicle</ArtificialClavicle.label>
+  <!-- EN: artificial clavicle -->
+  <ArtificialClavicle.description>artificial clavicle</ArtificialClavicle.description>
+  <!-- EN: an artificial clavicle -->
+  <ArtificialClavicle.labelNoun>an artificial clavicle</ArtificialClavicle.labelNoun>
+  <!-- EN: artificial ear -->
+  <ArtificialEar.label>artificial ear</ArtificialEar.label>
+  <!-- EN: artificial ear -->
+  <ArtificialEar.description>artificial ear</ArtificialEar.description>
+  <!-- EN: an artificial ear -->
+  <ArtificialEar.labelNoun>an artificial ear</ArtificialEar.labelNoun>
+  <!-- EN: artificial eye -->
+  <ArtificialEye.label>artificial eye</ArtificialEye.label>
+  <!-- EN: artificial eye -->
+  <ArtificialEye.description>artificial eye</ArtificialEye.description>
+  <!-- EN: an artificial eye -->
+  <ArtificialEye.labelNoun>an artificial eye</ArtificialEye.labelNoun>
+  <!-- EN: artificial femur -->
+  <ArtificialFemur.label>artificial femur</ArtificialFemur.label>
+  <!-- EN: artificial femur -->
+  <ArtificialFemur.description>artificial femur</ArtificialFemur.description>
+  <!-- EN: an artificial femur -->
+  <ArtificialFemur.labelNoun>an artificial femur</ArtificialFemur.labelNoun>
+  <!-- EN: artificial finger -->
+  <ArtificialFinger.label>artificial finger</ArtificialFinger.label>
+  <!-- EN: artificial finger -->
+  <ArtificialFinger.description>artificial finger</ArtificialFinger.description>
+  <!-- EN: an artificial finger -->
+  <ArtificialFinger.labelNoun>an artificial finger</ArtificialFinger.labelNoun>
+  <!-- EN: artificial humerus -->
+  <ArtificialHumerus.label>artificial humerus</ArtificialHumerus.label>
+  <!-- EN: artificial humerus -->
+  <ArtificialHumerus.description>artificial humerus</ArtificialHumerus.description>
+  <!-- EN: an artificial humerus -->
+  <ArtificialHumerus.labelNoun>an artificial humerus</ArtificialHumerus.labelNoun>
+  <!-- EN: artificial nose -->
+  <ArtificialNose.label>artificial nose</ArtificialNose.label>
+  <!-- EN: artificial nose -->
+  <ArtificialNose.description>artificial nose</ArtificialNose.description>
+  <!-- EN: an artificial nose -->
+  <ArtificialNose.labelNoun>an artificial nose</ArtificialNose.labelNoun>
+  <!-- EN: artificial pelvis -->
+  <ArtificialPelvis.label>artificial pelvis</ArtificialPelvis.label>
+  <!-- EN: artificial pelvis -->
+  <ArtificialPelvis.description>artificial pelvis</ArtificialPelvis.description>
+  <!-- EN: an artificial pelvis -->
+  <ArtificialPelvis.labelNoun>an artificial pelvis</ArtificialPelvis.labelNoun>
+  <!-- EN: artificial radius -->
+  <ArtificialRadius.label>artificial radius</ArtificialRadius.label>
+  <!-- EN: artificial radius -->
+  <ArtificialRadius.description>artificial radius</ArtificialRadius.description>
+  <!-- EN: an artificial radius -->
+  <ArtificialRadius.labelNoun>an artificial radius</ArtificialRadius.labelNoun>
+  <!-- EN: artificial ribcage -->
+  <ArtificialRibcage.label>artificial ribcage</ArtificialRibcage.label>
+  <!-- EN: artificial ribcage -->
+  <ArtificialRibcage.description>artificial ribcage</ArtificialRibcage.description>
+  <!-- EN: an artificial ribcage -->
+  <ArtificialRibcage.labelNoun>an artificial ribcage</ArtificialRibcage.labelNoun>
+  <!-- EN: artificial sternum -->
+  <ArtificialSternum.label>artificial sternum</ArtificialSternum.label>
+  <!-- EN: artificial sternum -->
+  <ArtificialSternum.description>artificial sternum</ArtificialSternum.description>
+  <!-- EN: an artificial sternum -->
+  <ArtificialSternum.labelNoun>an artificial sternum</ArtificialSternum.labelNoun>
+  <!-- EN: artificial tibia -->
+  <ArtificialTibia.label>artificial tibia</ArtificialTibia.label>
+  <!-- EN: artificial tibia -->
+  <ArtificialTibia.description>artificial tibia</ArtificialTibia.description>
+  <!-- EN: an artificial tibia -->
+  <ArtificialTibia.labelNoun>an artificial tibia</ArtificialTibia.labelNoun>
+  <!-- EN: artificial toe -->
+  <ArtificialToe.label>artificial toe</ArtificialToe.label>
+  <!-- EN: artificial toe -->
+  <ArtificialToe.description>artificial toe</ArtificialToe.description>
+  <!-- EN: an artificial toe -->
+  <ArtificialToe.labelNoun>an artificial toe</ArtificialToe.labelNoun>
+</LanguageData>

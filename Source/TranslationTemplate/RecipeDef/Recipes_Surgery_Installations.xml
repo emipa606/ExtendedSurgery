@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: heal scratch -->
+  <CureScratch.label>heal scratch</CureScratch.label>
+  <!-- EN: Heal scratch. -->
+  <CureScratch.description>Heal scratch.</CureScratch.description>
+  <!-- EN: Healing scratch. -->
+  <CureScratch.jobString>Healing scratch.</CureScratch.jobString>
+  <!-- EN: {0} has successfully healed {1}'s scratch. -->
+  <CureScratch.successfullyRemovedHediffMessage>{0} has successfully healed {1}'s scratch.</CureScratch.successfullyRemovedHediffMessage>
+  <!-- EN: install artificial ear -->
+  <InstallArtificialEar.label>install artificial ear</InstallArtificialEar.label>
+  <!-- EN: Installs artificial ear. -->
+  <InstallArtificialEar.description>Installs artificial ear.</InstallArtificialEar.description>
+  <!-- EN: Installing artificial ear. -->
+  <InstallArtificialEar.jobString>Installing artificial ear.</InstallArtificialEar.jobString>
+  <!-- EN: {0} has successfully replaced {1}'s ear. -->
+  <InstallArtificialEar.successfullyRemovedHediffMessage>{0} has successfully replaced {1}'s ear.</InstallArtificialEar.successfullyRemovedHediffMessage>
+  <!-- EN: install artificial eye -->
+  <InstallArtificialEye.label>install artificial eye</InstallArtificialEye.label>
+  <!-- EN: Installs artificial eye. -->
+  <InstallArtificialEye.description>Installs artificial eye.</InstallArtificialEye.description>
+  <!-- EN: Installing artificial eye. -->
+  <InstallArtificialEye.jobString>Installing artificial eye.</InstallArtificialEye.jobString>
+  <!-- EN: {0} has successfully replaced {1}'s eye. -->
+  <InstallArtificialEye.successfullyRemovedHediffMessage>{0} has successfully replaced {1}'s eye.</InstallArtificialEye.successfullyRemovedHediffMessage>
+  <!-- EN: install artificial finger -->
+  <InstallArtificialFinger.label>install artificial finger</InstallArtificialFinger.label>
+  <!-- EN: Installs artificial finger. -->
+  <InstallArtificialFinger.description>Installs artificial finger.</InstallArtificialFinger.description>
+  <!-- EN: Installing artificial finger. -->
+  <InstallArtificialFinger.jobString>Installing artificial finger.</InstallArtificialFinger.jobString>
+  <!-- EN: {0} has successfully replaced {1}'s finger. -->
+  <InstallArtificialFinger.successfullyRemovedHediffMessage>{0} has successfully replaced {1}'s finger.</InstallArtificialFinger.successfullyRemovedHediffMessage>
+  <!-- EN: install artificial nose -->
+  <InstallArtificialNose.label>install artificial nose</InstallArtificialNose.label>
+  <!-- EN: Installs artificial nose. -->
+  <InstallArtificialNose.description>Installs artificial nose.</InstallArtificialNose.description>
+  <!-- EN: Installing artificial nose. -->
+  <InstallArtificialNose.jobString>Installing artificial nose.</InstallArtificialNose.jobString>
+  <!-- EN: {0} has successfully replaced {1}'s nose. -->
+  <InstallArtificialNose.successfullyRemovedHediffMessage>{0} has successfully replaced {1}'s nose.</InstallArtificialNose.successfullyRemovedHediffMessage>
+  <!-- EN: install artificial pelvis -->
+  <InstallArtificialPelvis.label>install artificial pelvis</InstallArtificialPelvis.label>
+  <!-- EN: Installs artificial pelvis. -->
+  <InstallArtificialPelvis.description>Installs artificial pelvis.</InstallArtificialPelvis.description>
+  <!-- EN: Installing artificial pelvis. -->
+  <InstallArtificialPelvis.jobString>Installing artificial pelvis.</InstallArtificialPelvis.jobString>
+  <!-- EN: {0} has successfully replaced {1}'s pelvis. -->
+  <InstallArtificialPelvis.successfullyRemovedHediffMessage>{0} has successfully replaced {1}'s pelvis.</InstallArtificialPelvis.successfullyRemovedHediffMessage>
+  <!-- EN: install artificial toe -->
+  <InstallArtificialToe.label>install artificial toe</InstallArtificialToe.label>
+  <!-- EN: Installs artificial toe. -->
+  <InstallArtificialToe.description>Installs artificial toe.</InstallArtificialToe.description>
+  <!-- EN: Installing artificial toe. -->
+  <InstallArtificialToe.jobString>Installing artificial toe.</InstallArtificialToe.jobString>
+  <!-- EN: {0} has successfully replaced {1}'s toe. -->
+  <InstallArtificialToe.successfullyRemovedHediffMessage>{0} has successfully replaced {1}'s toe.</InstallArtificialToe.successfullyRemovedHediffMessage>
+  <!-- EN: install clavicle -->
+  <InstallClavicle.label>install clavicle</InstallClavicle.label>
+  <!-- EN: Installs clavicle. -->
+  <InstallClavicle.description>Installs clavicle.</InstallClavicle.description>
+  <!-- EN: Installing clavicle. -->
+  <InstallClavicle.jobString>Installing clavicle.</InstallClavicle.jobString>
+  <!-- EN: {0} has successfully replaced {1}'s clavicle. -->
+  <InstallClavicle.successfullyRemovedHediffMessage>{0} has successfully replaced {1}'s clavicle.</InstallClavicle.successfullyRemovedHediffMessage>
+  <!-- EN: install eye -->
+  <InstallEye.label>install eye</InstallEye.label>
+  <!-- EN: Installs eye. -->
+  <InstallEye.description>Installs eye.</InstallEye.description>
+  <!-- EN: Installing eye. -->
+  <InstallEye.jobString>Installing eye.</InstallEye.jobString>
+  <!-- EN: install femur -->
+  <InstallFemur.label>install femur</InstallFemur.label>
+  <!-- EN: Installs femur. -->
+  <InstallFemur.description>Installs femur.</InstallFemur.description>
+  <!-- EN: Installing femur. -->
+  <InstallFemur.jobString>Installing femur.</InstallFemur.jobString>
+  <!-- EN: {0} has successfully replaced {1}'s femur. -->
+  <InstallFemur.successfullyRemovedHediffMessage>{0} has successfully replaced {1}'s femur.</InstallFemur.successfullyRemovedHediffMessage>
+  <!-- EN: install humerus -->
+  <InstallHumerus.label>install humerus</InstallHumerus.label>
+  <!-- EN: Installs humerus. -->
+  <InstallHumerus.description>Installs humerus.</InstallHumerus.description>
+  <!-- EN: Installing humerus. -->
+  <InstallHumerus.jobString>Installing humerus.</InstallHumerus.jobString>
+  <!-- EN: {0} has successfully replaced {1}'s humerus. -->
+  <InstallHumerus.successfullyRemovedHediffMessage>{0} has successfully replaced {1}'s humerus.</InstallHumerus.successfullyRemovedHediffMessage>
+  <!-- EN: install radius -->
+  <InstallRadius.label>install radius</InstallRadius.label>
+  <!-- EN: Installs radius. -->
+  <InstallRadius.description>Installs radius.</InstallRadius.description>
+  <!-- EN: Installing radius. -->
+  <InstallRadius.jobString>Installing radius.</InstallRadius.jobString>
+  <!-- EN: {0} has successfully replaced {1}'s radius. -->
+  <InstallRadius.successfullyRemovedHediffMessage>{0} has successfully replaced {1}'s radius.</InstallRadius.successfullyRemovedHediffMessage>
+  <!-- EN: install ribcage -->
+  <InstallRibcage.label>install ribcage</InstallRibcage.label>
+  <!-- EN: Installs ribcage. -->
+  <InstallRibcage.description>Installs ribcage.</InstallRibcage.description>
+  <!-- EN: Installing ribcage. -->
+  <InstallRibcage.jobString>Installing ribcage.</InstallRibcage.jobString>
+  <!-- EN: install sternum -->
+  <InstallSternum.label>install sternum</InstallSternum.label>
+  <!-- EN: Installs sternum. -->
+  <InstallSternum.description>Installs sternum.</InstallSternum.description>
+  <!-- EN: Installing sternum. -->
+  <InstallSternum.jobString>Installing sternum.</InstallSternum.jobString>
+  <!-- EN: {0} has successfully replaced {1}'s sternum. -->
+  <InstallSternum.successfullyRemovedHediffMessage>{0} has successfully replaced {1}'s sternum.</InstallSternum.successfullyRemovedHediffMessage>
+  <!-- EN: install tibia -->
+  <InstallTibia.label>install tibia</InstallTibia.label>
+  <!-- EN: Installs tibia. -->
+  <InstallTibia.description>Installs tibia.</InstallTibia.description>
+  <!-- EN: Installing tibia. -->
+  <InstallTibia.jobString>Installing tibia.</InstallTibia.jobString>
+  <!-- EN: {0} has successfully replaced {1}'s tibia. -->
+  <InstallTibia.successfullyRemovedHediffMessage>{0} has successfully replaced {1}'s tibia.</InstallTibia.successfullyRemovedHediffMessage>
+</LanguageData>
